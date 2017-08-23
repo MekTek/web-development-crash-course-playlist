@@ -1,6 +1,6 @@
 # Building a Static Server to Serve HTML
 
-**In this lesson I'll show you how to easily serve static file using NodeJS Package live-server **
+** In this lesson I'll show you how to easily serve static file using NodeJS Package live-server **
 
 ## 1. Install NodeJS on Ubuntu
 
