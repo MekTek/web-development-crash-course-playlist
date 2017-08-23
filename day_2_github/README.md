@@ -57,10 +57,10 @@ Github is a code hosting cloud for version control and collaboration. It lets yo
     https://github.com/User_Name/hello-world
     ```
   2. Add remote origin and push your code into git repository
-    ```
-    $ git remote add origin https://github.com/User_Name/hello-world
-    $ git push -u origin master
-    ```
+  ```
+  $ git remote add origin https://github.com/User_Name/hello-world
+  $ git push -u origin master
+  ```
   3. It may be ask your github User_Name and pass . Enter those carefully and hit Enter.
 
 Congrats, You have pushed your code into GitHub successfully.
