@@ -54,7 +54,7 @@ Github is a code hosting cloud for version control and collaboration. It lets yo
   ```
   https://github.com/User_Name/hello-world
   ```
-  1. Push your code into git repository
+  1. Add remote origin and push your code into git repository
   ```
   $ git remote add origin https://github.com/User_Name/hello-world
   $ git push -u origin master
