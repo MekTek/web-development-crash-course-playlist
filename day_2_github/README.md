@@ -28,6 +28,7 @@ Github is a code hosting cloud for version control and collaboration. It lets yo
 
 #### Step 3. code something epic on your local directory.
   1. Create a index.html file and write some code onto it
+
     ```
     <!DOCTYPE html>
     <html>
@@ -40,25 +41,24 @@ Github is a code hosting cloud for version control and collaboration. It lets yo
         <p>Create a reo on github is very easy</p>
       </body>
     </html>
-
     ```
-  1. Initialize git, Stagging and commit this repo. Goto the project directory and type
-  ```
-  $ git init
-  $ git add .
-  $ git commit -m "initial commit"
-  ```
+  2. Initialize git, Stagging and commit this repo. Goto the project directory and type
+    ```
+    $ git init
+    $ git add .
+    $ git commit -m "initial commit"
+    ```
 
 #### Step 4. Push it into GitHub
   1. Find your repository origin from adress bar. It may be look like this.
-  ```
-  https://github.com/User_Name/hello-world
-  ```
-  1. Add remote origin and push your code into git repository
-  ```
-  $ git remote add origin https://github.com/User_Name/hello-world
-  $ git push -u origin master
-  ```
-  1. It may be ask your github User_Name and pass . Enter those carefully and hit Enter.
+    ```
+    https://github.com/User_Name/hello-world
+    ```
+  2. Add remote origin and push your code into git repository
+    ```
+    $ git remote add origin https://github.com/User_Name/hello-world
+    $ git push -u origin master
+    ```
+  3. It may be ask your github User_Name and pass . Enter those carefully and hit Enter.
 
 Congrats, You have pushed your code into GitHub successfully.
