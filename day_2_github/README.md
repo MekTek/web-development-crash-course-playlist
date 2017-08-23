@@ -28,19 +28,19 @@ Github is a code hosting cloud for version control and collaboration. It lets yo
 
 #### Step 3. code something epic on your local directory.
   1. Create a index.html file and write some code onto it
-    ```
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <title>1st Git Repo</title>
-      </head>
-      <body>
-        <h1> Create a repo on GitHub </h1>
-        <p>Create a reo on github is very easy</p>
-      </body>
-    </html>
-    ```
+  ```
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>1st Git Repo</title>
+    </head>
+    <body>
+      <h1> Create a repo on GitHub </h1>
+      <p>Create a reo on github is very easy</p>
+    </body>
+  </html>
+  ```
 
   2. Initialize git, Stagging and commit this repo. Goto the project directory and type
 
