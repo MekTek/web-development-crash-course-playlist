@@ -37,7 +37,7 @@ Step 3 : Git repository.
   ```
 
 ### Setting your Git username
-  Open Terminal. Set a Git username. and confirm that you have set the Git username correctly.
+  Open Terminal. Set a Git username and confirm that you have set the Git username correctly.
   ```
   $ git config --global user.name "Mona Lisa"
   $ git config --global user.name
@@ -46,11 +46,11 @@ Step 3 : Git repository.
 
 ### Setting your email address
 Open Terminal. Set a email address. and confirm that you have set the email address correctly.
-    ```
-    $ git config --global user.email "email@example.com"
-    $ git config --global user.email
-    > email@example.com
-    ```
+```
+$ git config --global user.email "email@example.com"
+$ git config --global user.email
+> email@example.com
+```
 ***
 ## **lesson 2:** Your First Git
 #### Steps:
@@ -83,8 +83,9 @@ Open Terminal. Set a email address. and confirm that you have set the email addr
   $ git status
   ```
 files are now on working directory, Very 1st stage on git.
+
 6. Staging area : It's time to transfer all file to staging area.
-if you have a one file named "index.html" then you can add a single file by following command.
+if you have one file named "index.html" then you can add a single file by following command.
   ```
   $ git add index.html
   ```
@@ -147,12 +148,12 @@ Commit holds the current state of the repository. You can consider a commit obje
   Date   : Tue Aug 22 16:52:38 2017 +0600
   Message: initial commit
   ```
-So, your every commit have a record and you can check them in one line by typing `$ git log` with a flag `--oneline` ,
+So, your every commit has a record and you can check them in one line by typing `$ git log` with a flag `--oneline` ,
   ```
   $ git log --oneline
   ```
 
-You may see only first 7 digit of id and commit messages ...
+You may see only first 7 digits of id and commit messages ...
   ```
   b085359 added a style.css file
   8233cdd initial commit
@@ -270,7 +271,7 @@ A **branch** is like an independent history line of a project. It's just a way t
   ```
 
 ### git checkout
-The `git checkout` command lets you navigate between the branches created by git branch.
+The `git checkout` command let you navigate between the branches created by git branch.
 
 #### Usages:
 1. **Checking Out:** To check out a existing branch
