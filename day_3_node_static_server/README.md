@@ -65,7 +65,7 @@ $ live-server
 ```
 5. Open your browser and type localhost:8080 and hit enter.
 
-  ** Here 8080 is port. sometimes your port may be busy with other process or application. You can use different port use a flag like this. **
+  *Here 8080 is port. sometimes your port may be busy with other process or application. You can use different port use a flag like this.*
     ```
     live-server --port=3000
     ```
