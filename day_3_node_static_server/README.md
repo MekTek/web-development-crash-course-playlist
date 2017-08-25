@@ -66,9 +66,12 @@ $ live-server
 5. Open your browser and type localhost:8080 and hit enter.
 
   *Here 8080 is port. sometimes your port may be busy with other process or application. You can use different port use a flag like this.*
-    ```
-    live-server --port=3000
-    ```
+
+  ```
+  live-server --port=3000
+  ```
+
+
 6. Let we need to another route or another file named about.html to serve. 1st create a file named about.html
 ```
 <!DOCTYPE html>
