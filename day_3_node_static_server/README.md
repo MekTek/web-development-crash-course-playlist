@@ -45,7 +45,7 @@ $ touch index.html
 ```
 2. Open terminal and goto the directory where you have placed the index.html file.
 3. Open index.html file and write some html code.
-```
+```HTML
 <!DOCTYPE html>
 <html>
   <head>
@@ -73,7 +73,7 @@ $ live-server
 
 
 6. Let we need to another route or another file named about.html to serve. 1st create a file named about.html
-```
+```HTML
 <!DOCTYPE html>
 <html>
   <head>

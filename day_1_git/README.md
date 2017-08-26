@@ -59,7 +59,7 @@ $ git config --global user.email
   $ sudo nano index.html
   ```
 2. Fill it with a html snippet
-  ```
+  ```HTML
   <!DOCTYPE html>
   <html>
     <head>
