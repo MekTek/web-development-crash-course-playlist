@@ -35,7 +35,7 @@ The `<hr>` tag creates a line from the current position in the document to the r
 See the table
 
 | Text Type     | Tag           |
-| ------------- |--------------:|
+| ------------- |--------------|
 | Bold Text     | `<b>...</b>`  |
 | Italic Text   | `<i>...</i>`  |
 | Underlined Text | ` <u>...</u>`      |

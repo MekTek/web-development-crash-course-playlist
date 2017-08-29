@@ -454,3 +454,98 @@ Description List have three key tag
 ```
 ***
 ### 7. HTML – LINK
+A webpage may have many links that take you directly to another pages and even specific parts of given page. These links are known as hyperlinks.
+
+#### Links Documents:
+ You can make your text as hyperlink by using anchor tag `<a>...</a>`. An anchor tag `<a>...</a>` has basically two attributes `href="Document Url..."` and `target="Options...."`. Target attribute is used to specify the location where linked document is opened. Following are the possible options:
+
+ | Options | Description |
+ |---------|-------------|
+ | `_blank ` | Opens the linked document in a new window or tab.|
+ | `_self` |Opens the linked document in the same frame.|
+ | `_parent`| Opens the linked document in the parent frame.|
+ | `_top` | Opens the linked document in the full body of the window.|
+ | `targetframe` | Opens the linked document in a named targetframe.|
+
+ ###### Examples: link.html
+ ```HTML
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>Hyperlink Examples</title>
+   </head>
+   <body>
+     <h1>Hyperlink Examples</h1>
+     <a href="www.mektekbd.com" target="_blank"> Blank </a>
+     <br>
+     <a href="www.mektekbd.com" target="_self"> Self </a>
+     <br>
+     <a href="www.mektekbd.com" target="_parent"> Parent </a>
+     <br>
+     <a href="www.mektekbd.com" target="_top"> Top </a>
+   </body>
+ </html>
+
+
+ ```
+
+ #### Linking to a Base Path:
+ When you have to link documents of the same website, it is not required to give a complete URL. You can use `<base>` tag and later you can use relative path instead of typing complete URL.
+ 1st create a about.html in the static folder.
+ ```HTML
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>About</title>
+   </head>
+   <body>
+     <h1>About </h1>
+     <p>This is about page.</p>
+   </body>
+ </html>
+ ```
+ ###### Examples: baseLink.html
+ ```HTML
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>Base Link</title>
+     <base href="http://127.0.0.1:8080" target="_blank">
+   </head>
+   <body>
+     <h1>Base Link Example</h1>
+     <a href="/static/about.html" target="_blank"> Blank </a>
+     <br>
+     <a href="/static/about.html" target="_self"> Self </a>
+     <br>
+     <a href="/static/about.html" target="_parent"> Parent </a>
+     <br>
+     <a href="/static/about.html" target="_top"> Top </a>
+     <br>
+   </body>
+ </html>
+
+ ```
+#### Use Image as Link:
+We have seen how to create hypertext link using text and we also learnt how to use images in our webpages. Now, we will learn how to use images to create hyperlinks.
+
+###### Examples: imageLink.html
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Link</title>
+  </head>
+  <body>
+    <h1>Image Link Example</h1>
+    <a href="/static/about.html"><img src="image/mektek.jpg" alt="MekTek"></a>
+  </body>
+</html>
+
+```
+
+ ***
